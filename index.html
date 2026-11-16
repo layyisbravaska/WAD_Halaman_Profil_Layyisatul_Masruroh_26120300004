@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f4f3ee">
+	<meta name="description" content="Profil Layyisatul Masruroh, mahasiswa yang tertarik pada desain dan pengembangan web.">
+	<title>Layyisatul Masruroh — Profil</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<a class="skip-link" href="#konten-utama">Lewati ke konten utama</a>
+
+	<header class="site-header">
+		<div class="shell header-inner">
+			<a class="wordmark" href="#beranda" aria-label="Layyisatul Masruroh, ke beranda">LM / Profil</a>
+			<nav class="site-nav" aria-label="Navigasi utama">
+				<ul>
+					<li><a href="#tentang">Tentang</a></li>
+					<li><a href="#keterampilan">Keterampilan</a></li>
+					<li><a href="#kontak">Kontak</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main id="konten-utama">
+		<section class="shell hero" id="beranda" aria-labelledby="hero-title">
+			<div>
+				<p class="eyebrow">Mahasiswa · Cakrawala University</p>
+				<h1 id="hero-title">Layyisatul<br>Masruroh<span aria-hidden="true">.</span></h1>
+				<p class="hero-copy">Menjelajahi dunia pengembangan web dengan rasa ingin tahu, perhatian pada detail, dan semangat untuk terus belajar.</p>
+				<a class="text-link" href="#tentang">Kenali saya <span aria-hidden="true">↓</span></a>
+			</div>
+			<div class="monogram" role="img" aria-label="Monogram LM dengan lingkaran dekoratif">
+				<span aria-hidden="true">LM</span>
+				<small>Profil pribadi · 2026</small>
+			</div>
+		</section>
+
+		<section class="section" id="tentang" aria-labelledby="tentang-title">
+			<div class="shell">
+				<div class="section-heading">
+					<p class="section-index">01 / Tentang saya</p>
+					<div>
+						<h2 id="tentang-title">Membangun dengan rasa ingin tahu.</h2>
+						<p class="section-intro">Saya percaya pengalaman digital yang baik dimulai dari hal-hal sederhana: memahami kebutuhan, menyusun ide, lalu merancangnya dengan cermat.</p>
+					</div>
+				</div>
+				<div class="about-grid">
+					<p class="about-label">Sedikit tentang perjalanan saya</p>
+					<p class="about-copy">Saat ini saya sedang mempelajari pengembangan aplikasi web. Saya senang mengubah konsep menjadi halaman yang mudah digunakan, inklusif, dan punya karakter visual yang kuat.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" id="keterampilan" aria-labelledby="keterampilan-title">
+			<div class="shell">
+				<div class="section-heading">
+					<p class="section-index">02 / Keterampilan</p>
+					<div>
+						<h2 id="keterampilan-title">Yang sedang saya tekuni.</h2>
+						<p class="section-intro">Fondasi yang terus saya asah melalui latihan dan proyek baru.</p>
+					</div>
+				</div>
+				<ul class="skills-list" aria-label="Daftar keterampilan">
+					<li><span class="skill-number">01</span> HTML semantik</li>
+					<li><span class="skill-number">02</span> CSS responsif</li>
+					<li><span class="skill-number">03</span> Desain antarmuka</li>
+					<li><span class="skill-number">04</span> Aksesibilitas web</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section contact-section" id="kontak" aria-labelledby="kontak-title">
+			<div class="shell contact-grid">
+				<div>
+					<p class="section-index">03 / Kontak</p>
+					<h2 id="kontak-title">Mari terhubung.</h2>
+					<p class="contact-note">Punya ide, pertanyaan, atau ingin berdiskusi tentang web? Kirimkan pesan melalui formulir ini.</p>
+				</div>
+				<form class="contact-form" action="#kontak" method="get">
+					<div class="field">
+						<label for="nama">Nama</label>
+						<input id="nama" name="nama" type="text" autocomplete="name" placeholder="Nama lengkap" required>
+					</div>
+					<div class="field">
+						<label for="email">Alamat email</label>
+						<input id="email" name="email" type="email" autocomplete="email" placeholder="nama@email.com" required>
+					</div>
+					<div class="field">
+						<label for="pesan">Pesan</label>
+						<textarea id="pesan" name="pesan" placeholder="Ceritakan apa yang ingin Anda sampaikan" required></textarea>
+					</div>
+					<button class="submit-button" type="submit">Kirim pesan <span aria-hidden="true">↗</span></button>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="shell footer-inner">
+			<p>Layyisatul Masruroh</p>
+			<p>© 2026 · Dibuat dengan perhatian.</p>
+		</div>
+	</footer>
+</body>
+</html>

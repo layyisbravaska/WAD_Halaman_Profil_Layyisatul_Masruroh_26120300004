@@ -407,6 +407,74 @@ textarea::placeholder {
   margin: 0;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.contact-subheading {
+  margin: 0 0 1rem;
+  font-family: var(--sans);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.contact-online {
+  margin-top: 2.5rem;
+}
+
+.contact-links {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+  list-style: none;
+}
+
+.contact-links li {
+  border-bottom: 1px solid var(--line);
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 0;
+  text-decoration: none;
+}
+
+.link-text {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.link-title {
+  font-weight: 700;
+}
+
+.link-desc {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.link-arrow {
+  color: var(--green);
+}
+
+.contact-links a:hover .link-title {
+  color: var(--green);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 @media (max-width: 720px) {
   .shell {
     width: min(100% - 2rem, 1120px);

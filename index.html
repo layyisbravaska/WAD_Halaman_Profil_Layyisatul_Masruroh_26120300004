@@ -167,7 +167,6 @@
           </ul>
         </div>
       </section>
-
       <section
         class="section contact-section"
         id="kontak"
@@ -175,52 +174,98 @@
       >
         <div class="shell contact-grid">
           <div>
-            <p class="section-index">03 / Kontak</p>
-            <h2 id="kontak-title">Mari terhubung.</h2>
+            <p class="section-index">03 / Contact</p>
+            <h2 id="kontak-title">Let's connect.</h2>
             <p class="contact-note">
-              Punya ide, pertanyaan, atau ingin berdiskusi tentang web? Kirimkan
-              pesan melalui formulir ini.
+              Have a question, an opportunity, or simply want to exchange ideas?
+              Feel free to reach out.
             </p>
+
+            <div class="contact-online">
+              <h3 class="contact-subheading">Find me online</h3>
+              <ul class="contact-links">
+                <li>
+                  <a
+                    href="https://github.com/layyisbravaska"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span class="link-text">
+                      <span class="link-title">GitHub</span>
+                      <span class="link-desc"
+                        >Projects and code repositories</span
+                      >
+                    </span>
+                    <span class="link-arrow" aria-hidden="true">↗</span>
+                    <span class="sr-only">(opens in a new tab)</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/layyisbravaska"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span class="link-text">
+                      <span class="link-title">LinkedIn</span>
+                      <span class="link-desc"
+                        >Professional profile and connections</span
+                      >
+                    </span>
+                    <span class="link-arrow" aria-hidden="true">↗</span>
+                    <span class="sr-only">(opens in a new tab)</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <form class="contact-form" action="#kontak" method="get">
-            <p class="form-note">Kolom bertanda * wajib diisi.</p>
-            <div class="field">
-              <label for="nama">Nama<span aria-hidden="true">*</span></label>
-              <input
-                id="nama"
-                name="nama"
-                type="text"
-                autocomplete="name"
-                placeholder="Nama lengkap"
-                required
-              />
-            </div>
-            <div class="field">
-              <label for="email"
-                >Alamat email <span aria-label="true">*</span></label
-              >
-              <input
-                id="email"
-                name="email"
-                type="email"
-                autocomplete="email"
-                placeholder="nama@email.com"
-                required
-              />
-            </div>
-            <div class="field">
-              <label for="pesan">Pesan <span aria-label="true">*</span></label>
-              <textarea
-                id="pesan"
-                name="pesan"
-                placeholder="Ceritakan apa yang ingin Anda sampaikan"
-                required
-              ></textarea>
-            </div>
-            <button class="submit-button" type="submit">
-              Kirim pesan <span aria-hidden="true">↗</span>
-            </button>
-          </form>
+
+          <div>
+            <h3 class="contact-subheading">Send me a message</h3>
+            <form class="contact-form" action="#kontak" method="get">
+              <p class="form-note">Fields marked * are required.</p>
+              <div class="field">
+                <label for="nama"
+                  >Your name <span aria-hidden="true">*</span></label
+                >
+                <input
+                  id="nama"
+                  name="nama"
+                  type="text"
+                  autocomplete="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="email"
+                  >Email address <span aria-hidden="true">*</span></label
+                >
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="pesan"
+                  >Message <span aria-hidden="true">*</span></label
+                >
+                <textarea
+                  id="pesan"
+                  name="pesan"
+                  placeholder="Write your message..."
+                  required
+                ></textarea>
+              </div>
+              <button class="submit-button" type="submit">
+                Send message <span aria-hidden="true">↗</span>
+              </button>
+            </form>
+          </div>
         </div>
       </section>
     </main>

@@ -242,7 +242,7 @@ h1 {
 
 h2 {
   margin-bottom: 0.8rem;
-  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-size: clamp(2rem, 4vw, 3rem);
 }
 
 .section-intro {
@@ -265,7 +265,7 @@ h2 {
 .about-copy {
   max-width: 680px;
   font-family: var(--serif);
-  font-size: clamp(1.45rem, 2.7vw, 2.15rem);
+  font-size: clamp(1.1rem, 1.7vw, 1.6rem);
   line-height: 1.48;
 }
 

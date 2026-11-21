@@ -108,10 +108,10 @@ button:focus-visible {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(250px, 0.75fr);
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
   align-items: center;
   gap: clamp(3rem, 9vw, 8rem);
-  padding-block: clamp(5rem, 11vw, 9.5rem);
+  padding-block: clamp(2rem, 5vw, 4rem);
 }
 
 .eyebrow {
@@ -141,7 +141,7 @@ h3 {
 h1 {
   max-width: 760px;
   margin-bottom: 1.5rem;
-  font-size: clamp(3.2rem, 8vw, 6.7rem);
+  font-size: clamp(3.2rem, 7vw, 6rem);
   letter-spacing: 0;
 }
 
@@ -160,6 +160,14 @@ h1 {
   font-weight: 700;
   text-decoration-thickness: 1px;
   text-underline-offset: 5px;
+}
+
+.hero-logo {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  justify-self: center;
 }
 
 .monogram {
@@ -412,6 +420,11 @@ textarea::placeholder {
 
   .monogram {
     min-height: 260px;
+  }
+
+  .hero-logo {
+    max-width: 240px;
+    justify-self: start;
   }
 
   .section-heading {

@@ -279,14 +279,9 @@ h2 {
 }
 
 .skills-list li {
-  display: flex;
-  align-items: baseline;
-  gap: 1.1rem;
-  min-height: 92px;
+  display: block;
   padding: 1.5rem 1rem 1.5rem 0;
   border-bottom: 1px solid var(--line);
-  font-family: var(--serif);
-  font-size: clamp(1.25rem, 2.4vw, 1.8rem);
 }
 
 .skills-list li:nth-child(odd) {
@@ -294,10 +289,25 @@ h2 {
 }
 
 .skill-number {
+  display: block;
+  margin-bottom: 0.4rem;
   color: var(--green);
   font-family: var(--sans);
   font-size: 0.72rem;
   font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.skill-title {
+  margin: 0 0 0.4rem;
+  font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+}
+
+.skill-desc {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .contact-section {
